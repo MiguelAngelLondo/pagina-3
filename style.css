@@ -76,10 +76,87 @@ font-size: 80px;
       #button {
          margin-top: 50px; 
          color: rgb(0, 0, 0); 
-  background-color: rgb(67, 227, 255);
+         background-color: rgb(67, 227, 255);
          border: 10px solid rgb(67, 227, 255);
          padding: 6px 45px; 
          border-radius: 20px; 
          cursor: pointer; 
      }
-     
+   
+     #section1{
+      display: flex;
+      font-size: 30px;
+      height: 90vh;
+      flex-direction: column;
+
+     }
+     #text5{
+      display: flex;
+      font-weight: bolder;
+      margin-left: 1%;
+      margin-top: 5%;
+      font-size: 50px;
+      align-self: 50%;
+      justify-content: center;
+      align-items: center;
+
+     }
+     #images-sect1{
+      display: flex;
+   margin-top: 8%;
+   margin-left: 0%;
+   justify-content: space-evenly;
+     }
+
+     #text-sect1{
+
+      display: flex;
+      font-size: 100%;
+      font-weight: bolder;
+      justify-content:  space-evenly;
+
+     }
+#texts-sect1{
+   display: flex;
+font-size: 55%;
+justify-content: space-evenly;
+margin-top: 2%;
+}
+.same-text{
+
+width: 20%;
+
+}
+   
+.seccion2{
+   display: flex;
+   flex-direction: column;
+   background: url('images/fondo-image.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-bottom: 100px ;
+}
+.all-2_1, .all-2_2{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+}
+#h1-s2{
+   font-size: 40px;
+}
+#p-s2{
+   width: 600px;
+   padding: 20px 0;
+   font-size: 15px;
+}
+#btn-s2{
+   border: none;
+   outline: none;
+   border-radius: 500px;
+   padding: 10px 30px;
+   background-color: rgb(25, 36, 64);
+   color: whitesmoke;
+   cursor: pointer;
+   transition: .7s;
+}
