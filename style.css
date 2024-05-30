@@ -30,7 +30,7 @@ font-size: 20px;
 #xd{
 
 
-   
+
 }
 
 #logo{
@@ -317,3 +317,68 @@ footer p {
    height: 20px;
    filter: brightness(0) invert(1);
 }
+
+@media screen and (max-width:1279px){
+
+
+}
+@media screen and (max-width:921px) {
+   #logo{
+       width: auto;
+   }
+   .all-2_1{
+       padding-bottom: 20px;
+   }
+   #p-s2{
+       width: 300px;
+   }
+   #img-s2{
+       width: 40vh;
+   }
+   #price, #price-two{
+       width: 300px;
+   }
+}
+@media screen and (max-width:769px) {
+   #logo{
+       width: auto;
+   }
+   .all-2_1{
+       padding-bottom: 80px;
+   }
+   #p-s2{
+       width: 310px;
+   }
+   #img-s2{
+       width: 50vh;
+   }
+   #price, #price-two{
+       width: 260px;
+   }
+}
+@media screen and (max-width:481px) {
+   #logo{
+       width: auto;
+   }
+   header{
+
+width: 480px;
+
+   }
+   .all-2_1{
+       padding-bottom: 100px;
+   }
+   #p-s2{
+       width: 20px;
+   }
+   #img-s2{
+       width: 50vh;
+   }
+   #price, #price-two{
+       width: 140px;
+   }
+}
+
+
+
+
