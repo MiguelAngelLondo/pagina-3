@@ -133,7 +133,19 @@ margin-top: 2%;
 width: 20%;
 
 }
-   
+.icons-all_1{
+   display: flex;
+   flex-direction: column;
+}
+#icns{
+   width: 15vh;
+}
+.paquete{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
 .seccion2{
    display: flex;
    flex-direction: column;
@@ -356,29 +368,223 @@ footer p {
        width: 260px;
    }
 }
-@media screen and (max-width:481px) {
-   #logo{
-       width: auto;
-   }
+
+
+@media screen and (max-width: 481px){
    header{
+       height: auto;
+       padding-bottom: 50px;
+       display: flex;
+   }
+   h1{
+       font-size: 20px;
+   }
+   p{
+       font-size: 12px;
+   }
+   #logo{
+       display: flex;
+       justify-content: space-between;
+       margin: 0 20px;
+   }
+   .p-head{
+       display: flex;
+       justify-content: center;
+       height: 75%;
+   }
+   #p-header{
+       width: auto;
 
-width: 480px;
-
    }
-   .all-2_1{
-       padding-bottom: 100px;
+   #headerLogo, #div-h1, #p-header, #btn-header{
+       margin: 0 20px;
    }
-   #p-s2{
-       width: 20px;
+   button{
+       font-size: 10px;
    }
-   #img-s2{
-       width: 50vh;
+   #div-h1{
+       font-size: 20px;
+   }
+   .icons-all_1{
+       display: flex;
+       flex-direction: column;
+   }
+   #icns{
+       width: 15vh;
+   }
+   .paquete{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
    }
    #price, #price-two{
-       width: 140px;
+       height: auto;
+       width: 250px;
+       padding: 20px 0;
    }
+   #p-pack{
+       padding: 2px;
+   }
+   #h1-s2, h2, .big, #h1-s5{
+       font-size: 20px;
+   }
+   .seccion2{
+       width: auto;
+       height: auto;
+       padding-bottom: 20px;
+   }
+   #img-s2{
+       width: 17vh;
+   }
+   #p-s2{
+       font-size: 12px;
+   }
+   .seccion5{
+       display: flex;
+       flex-direction: column;
+       height: auto;
+   }
+   .client{
+       width: 65px;
+   }
+   #contact, #p-s5{
+       font-size: 12px;
+   }
+   #your-name, #your-email{
+       width: 150px;
+   }
+   #txt_area_1{
+       width: 320px;
+   }
+   #your-name, #your-email, #txt_area_1{
+       font-size: 10px;
+       margin: 5px;
+   }
+   #seccion4{
+
+      width: 70px;
+
+
+   }
+   #e{
+      flex-direction: row;
+      width: 70px;
+ 
+}
 }
 
 
 
 
+
+
+@media screen and (max-width: 353px){
+   header{
+       height: auto;
+       padding-bottom: 50px;
+       display: flex;
+   }
+   h1{
+       font-size: 20px;
+   }
+   p{
+       font-size: 12px;
+   }
+   #logo{
+       display: flex;
+       justify-content: space-between;
+       margin: 0 20px;
+   }
+   .p-head{
+       display: flex;
+       justify-content: center;
+       height: 75%;
+   }
+   #p-header{
+       width: auto;
+
+   }
+   #headerLogo, #div-h1, #p-header, #btn-header{
+       margin: 0 20px;
+   }
+   button{
+       font-size: 10px;
+   }
+   #div-h1{
+       font-size: 20px;
+   }
+   .icons-all_1{
+       display: flex;
+       flex-direction: column;
+   }
+   #icns{
+       width: 15vh;
+   }
+   .paquete{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   #price, #price-two{
+       height: auto;
+       width: 250px;
+       padding: 20px 0;
+   }
+   #p-pack{
+       padding: 2px;
+   }
+   #h1-s2, h2, .big, #h1-s5{
+       font-size: 20px;
+   }
+   .seccion2{
+       width: auto;
+       height: auto;
+       padding-bottom: 20px;
+   }
+   #img-s2{
+       width: 20vh;
+   }
+   #p-s2{
+       font-size: 12px;
+       width: auto;
+   }
+   .seccion5{
+       display: flex;
+       flex-direction: column;
+       height: auto;
+   }
+   .client{
+       width: 65px;
+   }
+   #contact, #p-s5{
+       font-size: 12px;
+   }
+   #your-name, #your-email{
+       width: 150px;
+   }
+   #txt_area_1{
+       width: 320px;
+   }
+   #your-name, #your-email, #txt_area_1{
+       font-size: 10px;
+       margin: 5px;
+   }
+   #seccion4{
+
+      width: 70px;
+
+
+   }
+   #e{
+      flex-direction: row;
+      width: 50px;
+ 
+}
+#image1{
+
+   width: 70px;
+   
+   }
+}
